@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+
+    <ImageView
+        android:layout_marginLeft="12sp"
+        android:id="@+id/gridImage"
+        style="@style/FlagsDefaultSize"
+        android:src="@drawable/ic_europe"
+        android:contentDescription="TODO">
+    </ImageView>
+
+    <TextView
+        android:layout_gravity="center_vertical"
+        android:id="@+id/gridText"
+        style="@style/WrapContentHeightWidth"
+        android:layout_marginStart="@dimen/app_fifteen_sp"
+        android:textSize="@dimen/app_fifteen_sp"
+        tools:text="Test">
+    </TextView>
+
+</LinearLayout>

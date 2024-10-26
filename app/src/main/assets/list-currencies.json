@@ -1,0 +1,16 @@
+{"currencies":
+  [
+    { "name": "Australian Dollar", "symbol": "AUD", "flag": "australia" },
+    { "name": "Canadian Dollar", "symbol": "CAD", "flag": "canada"},
+    { "name": "Switzerland France", "symbol": "CHF", "flag": "switzerland" },
+    { "name": "China Yuan china Renminbi", "symbol": "CNY", "flag": "china" },
+    { "name": "Euro", "symbol": "EUR", "flag": "europe" },
+    { "name": "Pound Sterling", "symbol": "GBP", "flag": "united_kingdom" },
+    { "name": "Indian Rupee", "symbol": "INR", "flag": "india" },
+    { "name": "Japanese Yen", "symbol": "JPY", "flag": "japan" },
+    { "name": "Malasian Ringgit", "symbol": "MYR", "flag": "malaysia" },
+    { "name": "Rubble", "symbol": "RUB", "flag": "russia" },
+    { "name": "Singapore Dollar", "symbol": "SGD", "flag": "singapore" },
+    { "name": "US Dollar", "symbol": "USD", "flag": "uuss" }
+  ]
+}

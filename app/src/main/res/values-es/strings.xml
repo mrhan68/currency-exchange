@@ -1,0 +1,129 @@
+<resources>
+    <string name="app_name">Currency Converter</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="sans_serif">sans-serif</string>
+    <string name="sans_serif_light">sans-serif-light</string>
+    <string name="sans_serif_black">sans-serif-black</string>
+    <string name="sans_serif_medium">sans-serif-medium</string>
+
+    <string name="try_again_load">Recargar de nuevo</string>
+    <string name="loading_data">Cargando datos…</string>
+    <string name="no_correct_load_data">Los datos no se han cargado correctamente. por favor, prueba de nuevo"</string>
+
+    <!--activity_main.xml-->
+    <string name="start_text_to_first_instructions">Selecciona tu moneda base para realizar las conversiones</string>
+    <string name="select_your_base_money">Selecciona tu moneda base</string>
+    <string name="loading_currency_list_txt">Cargando lista de divisas…</string>
+
+    <!--activity_select_money_conversions.xml-->
+    <string name="default_selection_text">Tu moneda selecciona es EURO</string>
+    <string name="input_value_money_instructions">Introduce el valor para realizar la conversión</string>
+    <string name="select_money_txt">Tu moneda seleccionada es %1$s</string>
+    <string name="input_value_to_convert">Introducir la cantidad a convertir %1$s</string>
+
+    <!-- share options strings -->
+    <string name="share_chooser_title">Compartir app</string>
+    <string name="share_message"> Descarga en Google Play: https://play.google.com/store/apps/details?id=amldev.currency</string>
+
+    <!--Preferences-->
+    <string name="select_language_pref_text">Idioma seleccionado</string>
+
+
+    <string-array name="preference_language_strings_text">
+        <item>@string/basque</item>
+        <item>@string/spanish</item>
+        <item>@string/english</item>
+    </string-array>
+
+    <string-array name="preferences_language_codes">
+        <item>eu</item>
+        <item>es</item>
+        <item>en</item>
+    </string-array>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name ="settings_title">Opciones generales</string>
+    <string name="pref_header_general">Generales</string>
+    <string name="pref_title_contact">Contacto</string>
+
+    <string name="select_language_summary">El idioma seleccionado es %1$s.</string>
+
+    <string name="pref_title_use_internet">Usar internet para usar los valores actuales</string>
+    <string name="pref_description_use_internet">Usar internet para tener los valores de las conversiones actualizadas</string>
+
+    <string name="pref_title_about_app">Sobre la aplicación</string>
+    <string name="pref_description_about_app">Conversor de divisas creado en Kotlin y Android por Anartz Mugika (mugan86@gmail.com)</string>
+
+    <string name="pref_title_version_info">Versión</string>
+    <string name="pref_description_version_info">1.2 – 2017/09/22</string>
+
+    <string name="pref_title_google_play_opinion">¡Dame tu opinión!</string>
+    <string name="pref_description_google_play_opinion">¡Hacer click para poder escribir tu opinión en la ficha de la aplicación!</string>
+
+    <string name="pref_title_twitter">Twitter</string>
+    <string name="pref_description_twitter">Sigueme para tener novedades sobre esta app y otros proyectos mios</string>
+
+    <string name="more_info_app">Más información sobre la app</string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Siempre</item>
+        <item>Cuando sea posible</item>
+        <item>Nunca</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Frecuencia de sincronización</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutos</item>
+        <item>30 minutos</item>
+        <item>1 hora</item>
+        <item>3 horas</item>
+        <item>6 horas</item>
+        <item>Nunca</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notificaciones</string>
+    <string name="pref_title_new_message_notifications">Nuevas notificaciones recibidas</string>
+    <string name="pref_title_vibrate">Vibrate when we receive push notification </string>
+
+</resources>
+

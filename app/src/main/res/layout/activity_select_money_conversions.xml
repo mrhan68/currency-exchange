@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/AllHeightWidth"
+    android:orientation="vertical"
+    tools:context="amldev.currency.ui.activities.money_conversions.SelectMoneyConversionsActivity">
+    <include layout="@layout/toolbar" />
+    <RelativeLayout
+        android:layout_marginTop="?attr/actionBarSize"
+        android:id="@+id/selectMoneyZone"
+        style="@style/WrapHeightMatchWidth"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+        <TextView
+            android:textAlignment="center"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10sp"
+            android:textSize="20sp"
+            style="@style/WrapHeightMatchWidth"
+            android:id="@+id/selectMoneyInfoTextView"
+            android:layout_toLeftOf="@+id/selectLanguageFlag"
+            tools:text="@string/default_selection_text"/>
+        <ImageView
+            android:layout_alignParentRight="true"
+            android:id="@+id/selectLanguageFlag"
+            android:src="@drawable/ic_europe"
+            android:layout_margin="@dimen/app_fifteen_sp"
+            style="@style/FlagsDefaultSize"
+            tools:src="@drawable/ic_europe"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/inputConversionUnitsZone"
+        android:layout_below="@+id/selectMoneyZone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+        <TextView
+            android:ems="12"
+            android:id="@+id/inputConvertInfoTextView"
+            android:layout_gravity="center_vertical"
+            style="@style/WrapContentHeightWidth"
+            android:layout_marginRight="10sp"
+            android:layout_marginLeft="18sp"
+            tools:text="@string/input_value_money_instructions"/>
+        <TextView
+            android:ems="5"
+            android:id="@+id/selectMoneyValueToConvertTextView"
+            style="@style/WrapWidthtMatchHeight"
+            android:gravity="center_vertical"
+            android:background="?android:attr/selectableItemBackground"
+            android:textAlignment="center"
+            android:text="1" />
+        <ImageButton
+            android:layout_gravity="center"
+            android:id="@+id/editConversionValueImageButton"
+            android:background="?android:attr/selectableItemBackground"
+            style="@style/WrapContentHeightWidth"
+            android:src="@android:drawable/ic_menu_edit"/>
+
+        <EditText
+            android:visibility="invisible"
+            android:id="@+id/inputMoneyValueToConvertEditText"
+            android:inputType="numberDecimal"
+            android:text="1"
+            android:layout_gravity="end"
+            android:ems="6"
+            style="@style/WrapContentHeightWidth" />
+    </LinearLayout>
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/reloadDataLinearLayout"
+        android:layout_below="@+id/inputConversionUnitsZone"
+        style="@style/AllHeightWidth"
+        android:gravity="center">
+        <Button
+            android:id="@+id/reloadDataButton"
+            style="@style/WrapContentHeightWidth"
+            android:text="@string/try_again_load"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_below="@+id/inputConversionUnitsZone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <GridView
+            android:scaleX="1"
+            android:visibility="visible"
+            android:id="@+id/conversionOtherMoneyGridView"
+            android:numColumns="auto_fit"
+            android:gravity="center"
+            style="@style/AllHeightWidth" />
+
+        <ProgressBar
+            android:id="@+id/progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            tools:visibility="visible" />
+    </LinearLayout>
+</RelativeLayout>

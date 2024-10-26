@@ -1,0 +1,127 @@
+<resources>
+    <string name="app_name">Currency Converter</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="sans_serif">sans-serif</string>
+    <string name="sans_serif_light">sans-serif-light</string>
+    <string name="sans_serif_black">sans-serif-black</string>
+    <string name="sans_serif_medium">sans-serif-medium</string>
+
+    <string name="try_again_load">Saiatu berriro</string>
+    <string name="loading_data">Datuak kargatzen…</string>
+    <string name="no_correct_load_data">Datuak ez dira zuzen kargatu, saiatu berriro mesedez"</string>
+
+    <!--activity_main.xml-->
+    <string name="start_text_to_first_instructions">Aukeratu zure txanpona konbersio guztiak burutzeko</string>
+    <string name="select_your_base_money">Aukeratu zure txanpona</string>
+    <string name="loading_currency_list_txt">Kargatu txanpon zerrenda…</string>
+
+    <!--activity_select_money_conversions.xml-->
+    <string name="default_selection_text">Aukeratutako txanpona: EURO</string>
+    <string name="input_value_money_instructions">Idatzi balioa aldaketa egiteko aukeratutako txanponarekin</string>
+    <string name="select_money_txt">Aukeratutako txanpona %1$s da</string>
+    <string name="input_value_to_convert">Idatzi balioa aldaketa egiteko %1$s txanponarekin</string>
+
+    <!-- share options strings -->
+    <string name="share_chooser_title">Partekatu aplikazioa</string>
+    <string name="share_message"> Jeitsi Google Play-n: https://play.google.com/store/apps/details?id=amldev.currency</string>
+
+    <!--Preferences-->
+    <string name="select_language_pref_text">Aukeratutako hizkuntza</string>
+
+
+    <string-array name="preference_language_strings_text">
+        <item>@string/basque</item>
+        <item>@string/spanish</item>
+        <item>@string/english</item>
+    </string-array>
+
+    <string-array name="preferences_language_codes">
+        <item>eu</item>
+        <item>es</item>
+        <item>en</item>
+    </string-array>
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name ="settings_title">Aukera orokorrak</string>
+    <string name="pref_header_general">Orokorrak</string>
+    <string name="pref_title_contact">Kontaktua</string>
+
+    <string name="select_language_summary">Aukeratutako hizkuntza %1$s da.</string>
+
+    <string name="pref_title_use_internet">Erabili internet konexioa txanponen balio eguneratua izateko</string>
+    <string name="pref_description_use_internet">Erabili internet konexioa txanponen bihurketak egiteko balio eguneratuekin</string>
+
+    <string name="pref_title_about_app">Aplikazioari buruz</string>
+    <string name="pref_description_about_app">Kotlin programazio lengoaia eta Android Framework-a erabiliz sortutako aplikazioa. Anartz Mugika (mugan86@gmail.com) garatzaileak eginikoa</string>
+
+    <string name="pref_title_version_info">Bertsioa</string>
+    <string name="pref_description_version_info">1.2 – 2017/09/22</string>
+
+    <string name="pref_title_google_play_opinion">Idatzi zure iritzia</string>
+    <string name="pref_description_google_play_opinion">Klikatu Google Play-ko fitxara joan eta zure iritzia emateko!</string>
+
+    <string name="pref_title_twitter">Twitter</string>
+    <string name="pref_description_twitter">Jarraitu iezadazue aplikazio honi eta nire proiektuei buruzko albisteak jaso ahal izateko</string>
+
+    <string name="more_info_app">Aplikazioari buruz informazio gehiago</string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Beti</item>
+        <item>Ahal den unean</item>
+        <item>Inoiz</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutu</item>
+        <item>30 minutu</item>
+        <item>Ordubete</item>
+        <item>3 ordu</item>
+        <item>6 ordu</item>
+        <item>Inoiz</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Jakinarazpenak</string>
+    <string name="pref_title_new_message_notifications">Mezu berrien jakinarazpenak</string>
+    <string name="pref_title_vibrate">Bibratu jakinarazpen berriak heltzean</string>
+
+</resources>

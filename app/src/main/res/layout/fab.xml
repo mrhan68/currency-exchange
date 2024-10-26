@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.FloatingActionButton
+    android:id="@+id/sendOpinionInGooglePlay"
+    style="@style/DefaultFloatingActionBar"
+    app:srcCompat="@drawable/ic_google_play"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" />
